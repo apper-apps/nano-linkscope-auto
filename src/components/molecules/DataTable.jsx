@@ -15,19 +15,42 @@ const DataTable = ({
   const [currentPage, setCurrentPage] = useState(1)
   const itemsPerPage = 10
 
-  const handleSort = (field) => {
+const handleSort = (field) => {
     const newDirection = sortField === field && sortDirection === 'asc' ? 'desc' : 'asc'
     setSortField(field)
     setSortDirection(newDirection)
     onSort?.(field, newDirection)
   }
 
-  const paginatedData = data.slice(
+  // Sort data if no external sorting provided
+  const sortedData = onSort ? data : [...data].sort((a, b) => {
+    if (!sortField) return 0
+    
+    const aValue = a[sortField]
+    const bValue = b[sortField]
+    
+    if (typeof aValue === 'string' && typeof bValue === 'string') {
+      return sortDirection === 'asc' 
+        ? aValue.localeCompare(bValue)
+        : bValue.localeCompare(aValue)
+    }
+    
+    const aNum = parseFloat(aValue)
+    const bNum = parseFloat(bValue)
+    
+    if (!isNaN(aNum) && !isNaN(bNum)) {
+      return sortDirection === 'asc' ? aNum - bNum : bNum - aNum
+    }
+    
+    return 0
+  })
+
+  const paginatedData = sortedData.slice(
     (currentPage - 1) * itemsPerPage,
     currentPage * itemsPerPage
   )
 
-  const totalPages = Math.ceil(data.length / itemsPerPage)
+const totalPages = Math.ceil(sortedData.length / itemsPerPage)
 
   if (loading) {
     return (
@@ -92,9 +115,9 @@ const DataTable = ({
       </div>
       
       {totalPages > 1 && (
-        <div className="px-6 py-4 border-t border-gray-200 flex items-center justify-between">
+<div className="px-6 py-4 border-t border-gray-200 flex items-center justify-between">
           <div className="text-sm text-gray-600">
-            Showing {(currentPage - 1) * itemsPerPage + 1} to {Math.min(currentPage * itemsPerPage, data.length)} of {data.length} results
+            Showing {(currentPage - 1) * itemsPerPage + 1} to {Math.min(currentPage * itemsPerPage, sortedData.length)} of {sortedData.length} results
           </div>
           <div className="flex items-center space-x-2">
             <Button
