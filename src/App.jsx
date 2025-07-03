@@ -1,4 +1,4 @@
-import { Route, Router, Routes } from "react-router-dom";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import LinkOpportunities from "@/components/pages/LinkOpportunities";
 import React from "react";
@@ -12,7 +12,7 @@ import RankTracker from "@/components/pages/RankTracker";
 
 function App() {
   return (
-    <Router>
+<BrowserRouter>
       <div className="min-h-screen bg-white">
         <Layout>
           <Routes>
@@ -38,7 +38,7 @@ function App() {
           theme="colored"
         />
       </div>
-    </Router>
+</BrowserRouter>
   );
 }
 
