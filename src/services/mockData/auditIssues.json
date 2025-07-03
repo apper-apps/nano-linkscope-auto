@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 1,
+    "type": "Missing Meta Descriptions",
+    "severity": "critical",
+    "affectedPages": 45,
+    "description": "Many pages are missing meta descriptions, which are important for SEO and click-through rates.",
+    "solution": "Add unique meta descriptions to all pages, keeping them between 150-160 characters and including target keywords."
+  },
+  {
+    "Id": 2,
+    "type": "Broken Internal Links",
+    "severity": "warning",
+    "affectedPages": 12,
+    "description": "Found internal links pointing to non-existent pages (404 errors).",
+    "solution": "Update broken internal links to point to the correct pages or remove them if no longer needed."
+  },
+  {
+    "Id": 3,
+    "type": "Large Image Files",
+    "severity": "warning",
+    "affectedPages": 28,
+    "description": "Some images are too large and may slow down page loading times.",
+    "solution": "Optimize images by compressing them and using appropriate formats (WebP, AVIF) for better performance."
+  },
+  {
+    "Id": 4,
+    "type": "Missing Alt Text",
+    "severity": "notice",
+    "affectedPages": 67,
+    "description": "Images without alt text affect accessibility and SEO.",
+    "solution": "Add descriptive alt text to all images to improve accessibility and help search engines understand content."
+  },
+  {
+    "Id": 5,
+    "type": "Duplicate Title Tags",
+    "severity": "critical",
+    "affectedPages": 8,
+    "description": "Multiple pages have identical title tags, which can hurt SEO performance.",
+    "solution": "Create unique, descriptive title tags for each page that accurately reflect the page content."
+  },
+  {
+    "Id": 6,
+    "type": "Slow Page Speed",
+    "severity": "critical",
+    "affectedPages": 23,
+    "description": "Page loading times are above recommended thresholds (3+ seconds).",
+    "solution": "Optimize CSS, JavaScript, and images. Consider using a CDN and enabling compression."
+  },
+  {
+    "Id": 7,
+    "type": "Missing H1 Tags",
+    "severity": "warning",
+    "affectedPages": 15,
+    "description": "Some pages are missing H1 tags, which are important for SEO structure.",
+    "solution": "Add a single, descriptive H1 tag to each page that includes the main keyword."
+  },
+  {
+    "Id": 8,
+    "type": "Thin Content",
+    "severity": "notice",
+    "affectedPages": 19,
+    "description": "Pages with very little content may not rank well in search results.",
+    "solution": "Expand content on these pages to provide more value to users and search engines."
+  }
+]

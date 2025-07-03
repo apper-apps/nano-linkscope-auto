@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "url": "example.com",
+    "domainRating": 75,
+    "backlinks": 45230,
+    "referringDomains": 2341,
+    "organicKeywords": 12450,
+    "organicTraffic": 89340,
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "url": "techblog.com",
+    "domainRating": 68,
+    "backlinks": 23100,
+    "referringDomains": 1456,
+    "organicKeywords": 8920,
+    "organicTraffic": 56780,
+    "lastUpdated": "2024-01-15T09:15:00Z"
+  },
+  {
+    "Id": 3,
+    "url": "marketingpro.com",
+    "domainRating": 82,
+    "backlinks": 67890,
+    "referringDomains": 3245,
+    "organicKeywords": 18750,
+    "organicTraffic": 123450,
+    "lastUpdated": "2024-01-15T11:45:00Z"
+  }
+]

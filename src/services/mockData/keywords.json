@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "keyword": "SEO tools",
+    "searchVolume": 18500,
+    "difficulty": 78,
+    "cpc": 12.45,
+    "position": 3,
+    "url": "https://example.com/seo-tools",
+    "traffic": 2340
+  },
+  {
+    "Id": 2,
+    "keyword": "keyword research",
+    "searchVolume": 12300,
+    "difficulty": 65,
+    "cpc": 8.90,
+    "position": 7,
+    "url": "https://example.com/keyword-research",
+    "traffic": 1850
+  },
+  {
+    "Id": 3,
+    "keyword": "backlink analysis",
+    "searchVolume": 9800,
+    "difficulty": 72,
+    "cpc": 15.60,
+    "position": 5,
+    "url": "https://example.com/backlink-analysis",
+    "traffic": 1560
+  },
+  {
+    "Id": 4,
+    "keyword": "competitor analysis",
+    "searchVolume": 7650,
+    "difficulty": 58,
+    "cpc": 9.85,
+    "position": 12,
+    "url": "https://example.com/competitor-analysis",
+    "traffic": 890
+  },
+  {
+    "Id": 5,
+    "keyword": "rank tracking",
+    "searchVolume": 5430,
+    "difficulty": 45,
+    "cpc": 7.20,
+    "position": 8,
+    "url": "https://example.com/rank-tracking",
+    "traffic": 650
+  },
+  {
+    "Id": 6,
+    "keyword": "site audit",
+    "searchVolume": 8900,
+    "difficulty": 52,
+    "cpc": 11.30,
+    "position": 4,
+    "url": "https://example.com/site-audit",
+    "traffic": 1120
+  },
+  {
+    "Id": 7,
+    "keyword": "SEO analytics",
+    "searchVolume": 6780,
+    "difficulty": 68,
+    "cpc": 13.75,
+    "position": 9,
+    "url": "https://example.com/analytics",
+    "traffic": 780
+  },
+  {
+    "Id": 8,
+    "keyword": "domain authority",
+    "searchVolume": 11200,
+    "difficulty": 71,
+    "cpc": 6.45,
+    "position": 15,
+    "url": "https://example.com/domain-authority",
+    "traffic": 560
+  },
+  {
+    "Id": 9,
+    "keyword": "link building",
+    "searchVolume": 14500,
+    "difficulty": 82,
+    "cpc": 18.90,
+    "position": 18,
+    "url": "https://example.com/link-building",
+    "traffic": 420
+  },
+  {
+    "Id": 10,
+    "keyword": "SERP analysis",
+    "searchVolume": 4560,
+    "difficulty": 48,
+    "cpc": 5.60,
+    "position": 6,
+    "url": "https://example.com/serp-analysis",
+    "traffic": 380
+  }
+]

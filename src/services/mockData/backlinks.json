@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "sourceUrl": "https://techcrunch.com/seo-tools-review",
+    "targetUrl": "https://example.com/products",
+    "anchorText": "best SEO tools",
+    "domainRating": 95,
+    "doFollow": true,
+    "firstSeen": "2024-01-01",
+    "lastChecked": "2024-01-15"
+  },
+  {
+    "Id": 2,
+    "sourceUrl": "https://blog.hubspot.com/marketing-tools",
+    "targetUrl": "https://example.com/about",
+    "anchorText": "marketing analytics",
+    "domainRating": 88,
+    "doFollow": true,
+    "firstSeen": "2024-01-03",
+    "lastChecked": "2024-01-15"
+  },
+  {
+    "Id": 3,
+    "sourceUrl": "https://moz.com/blog/link-building-guide",
+    "targetUrl": "https://example.com/blog/seo-guide",
+    "anchorText": "comprehensive SEO guide",
+    "domainRating": 92,
+    "doFollow": true,
+    "firstSeen": "2024-01-05",
+    "lastChecked": "2024-01-15"
+  },
+  {
+    "Id": 4,
+    "sourceUrl": "https://searchengineland.com/resources",
+    "targetUrl": "https://example.com/tools",
+    "anchorText": "SEO analysis tools",
+    "domainRating": 85,
+    "doFollow": false,
+    "firstSeen": "2024-01-07",
+    "lastChecked": "2024-01-15"
+  },
+  {
+    "Id": 5,
+    "sourceUrl": "https://ahrefs.com/blog/competitor-analysis",
+    "targetUrl": "https://example.com/features",
+    "anchorText": "competitor research",
+    "domainRating": 90,
+    "doFollow": true,
+    "firstSeen": "2024-01-10",
+    "lastChecked": "2024-01-15"
+  },
+  {
+    "Id": 6,
+    "sourceUrl": "https://semrush.com/blog/keyword-research",
+    "targetUrl": "https://example.com/pricing",
+    "anchorText": "keyword tracking software",
+    "domainRating": 87,
+    "doFollow": true,
+    "firstSeen": "2024-01-12",
+    "lastChecked": "2024-01-15"
+  },
+  {
+    "Id": 7,
+    "sourceUrl": "https://backlinko.com/seo-tools",
+    "targetUrl": "https://example.com/blog/backlink-analysis",
+    "anchorText": "backlink analyzer",
+    "domainRating": 78,
+    "doFollow": true,
+    "firstSeen": "2024-01-14",
+    "lastChecked": "2024-01-15"
+  },
+  {
+    "Id": 8,
+    "sourceUrl": "https://neilpatel.com/blog/seo-audit",
+    "targetUrl": "https://example.com/audit",
+    "anchorText": "site audit tool",
+    "domainRating": 82,
+    "doFollow": false,
+    "firstSeen": "2024-01-08",
+    "lastChecked": "2024-01-15"
+  }
+]
